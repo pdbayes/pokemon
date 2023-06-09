@@ -1,0 +1,104 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  html,
+  body,
+  body,
+  ul,
+  h1,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #eaece5;
+  }
+  
+  button {
+    transition: background-color 0.25s;
+    display: inline-block;
+    background-color: #d42b2b;
+    color: #fff;
+    border: none;
+    outline-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    transition: background-color 0.25s;
+    background-color: #d84141;
+    cursor: pointer;
+  }
+  
+  #pokedex-app {
+    background-color: #f2f2f2;
+    margin-top: 1rem;
+  }
+  
+  .container {
+    min-height: 10rem;
+    border-radius: 0.25rem;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    min-height: 2rem;
+    width: 100%;
+  }
+  
+  .toolbar-title {
+    color: #d84141;
+    font-size: 2rem;
+  }
+  
+  .pokedex-list {
+    list-style: none;
+    margin: 0.5rem 1rem;
+  }
+  
+  .pokedex-list-item {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #eaece5;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 550px) {
+    .container {
+      width: 90vw;
+    }
+  }
+  
+  @media (min-width: 550px) {
+    .container {
+      width: 80vw;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .container {
+      width: 60vw;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .container {
+      width: 50vw;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 40vw;
+    }
+  }
+  
